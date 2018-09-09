@@ -32,7 +32,7 @@ def theThread():
             rect2 = small_text_surface.get_rect(center=(200,30))
             lcd.blit(small_text_surface, rect2)
             pygame.display.update()
-            sleep(.5)
+            sleep(5)
             clear_text_surface = font_smaller.render(small_text, True, (0,0,255))
             rect3 = clear_text_surface.get_rect(center=(200,30))
             lcd.blit(clear_text_surface, rect3)
